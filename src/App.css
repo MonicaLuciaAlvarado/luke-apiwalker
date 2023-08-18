@@ -1,3 +1,13 @@
+*{
+  outline:0;
+  padding:0;
+  margin: 0;
+  border: 0;
+  list-style: none;
+  font-family: 'Quicksand', sans-serif;
+}
+
+
 .App {
   text-align: center;
 }
@@ -35,4 +45,48 @@
   to {
     transform: rotate(360deg);
   }
+}
+table{
+  width: 80%;
+  margin: 0 auto;
+}
+th{
+  border: 0.2vh solid black;
+}
+tr{
+  border: 0.2vh solid black;
+}
+td{
+  border: 0.2vh solid black;
+}
+.title{
+  width: 14%;
+}
+.resumen{
+  font-size:0.8em;
+  width: 50%;
+}
+.director{
+  width: 11%;
+}
+.producer{
+  width: 14%;
+}
+.releaseDate{
+  width: 11%;
+}
+.icono{
+  width: 40%;
+}
+.elError{
+  width: 80%;
+  height: 30vh;
+  margin: 0 auto;
+  padding: 5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5vh;
+  font-weight: bold;
+  color: red;
 }
